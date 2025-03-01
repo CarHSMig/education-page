@@ -1,0 +1,17 @@
+/* index.css */
+
+.signature-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.signature-item {
+  margin-top: 10;
+  margin-left: 70px; 
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  color: #808080;
+}

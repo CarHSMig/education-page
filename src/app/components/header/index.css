@@ -1,0 +1,36 @@
+header {
+  .header {
+    display: flex;
+    background-color: #E6E8EB;
+    padding: 2px 3%;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 15px 16px -7 rgba(0, 0, 0, 0.1);
+  }
+
+  .logo {
+    img {
+      width: 180px;
+      height: 100%;
+      object-fit: cover;
+      gap: 35px;
+    }
+  }
+
+  .slogan {
+    display: flex;
+    margin-left: 50px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #808080;
+  }
+
+  .date {
+    font-size: 13px;
+    color: #808080;
+    font-weight: 300;
+    margin-left: auto;
+    padding-right: 20px;
+    align-items: center;
+  }
+}

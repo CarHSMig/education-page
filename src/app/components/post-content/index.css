@@ -1,0 +1,16 @@
+.post {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #C3C7CE;
+}
+.content {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 16px;
+  font-weight: 400;
+  color: #494D4B;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  word-break: break-word
+}
