@@ -1,11 +1,11 @@
 header {
   .header {
     display: flex;
-    background-color: #E6E8EB;
+    background-color: #ffffff;
     padding: 2px 3%;
     justify-content: flex-start;
     align-items: center;
-    box-shadow: 0 15px 16px -7 rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #E6E8EB;
   }
 
   .logo {
