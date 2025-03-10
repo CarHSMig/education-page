@@ -1,9 +1,9 @@
 "use client";
 
 import "./index.css";
-import PostTitle from "../post-title";
-import Signature from "../signature";
-import PostContent from "../post-content";
+import PostTitle from "./post-title";
+import Signature from "./signature";
+import PostContent from "./post-content";
 
 export interface PostTitleInterface {
   title: string;
