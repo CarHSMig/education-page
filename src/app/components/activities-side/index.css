@@ -1,0 +1,58 @@
+/* Estilização geral */
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Área do desafio */
+.challenge {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.operation-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.number,
+.operator {
+  padding: 10px;
+}
+
+/* Input */
+.input-container {
+  margin: 20px 0;
+}
+
+input {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+}
+
+/* Mensagem de resposta */
+.message {
+  font-size: 18px;
+  margin-top: 10px;
+}
